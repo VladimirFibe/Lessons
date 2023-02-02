@@ -1,19 +1,9 @@
 # Lessons
 
 
-fibe@Vladimirs-MacBook-Air Developer % mkdir Lessons
-fibe@Vladimirs-MacBook-Air Developer % cd Lessons 
-fibe@Vladimirs-MacBook-Air Lessons % tuist init --platform ios --template swiftui
-fibe@Vladimirs-MacBook-Air Lessons % tuist edit
-fibe@Vladimirs-MacBook-Air Lessons % tuist generate -n
-fibe@Vladimirs-MacBook-Air Lessons % git init
-fibe@Vladimirs-MacBook-Air Lessons % git status
-fibe@Vladimirs-MacBook-Air Lessons % git add .
-fibe@Vladimirs-MacBook-Air Lessons % git commit -m "Start"
-fibe@Vladimirs-MacBook-Air Lessons % curl -u "VladimirFibe" https://api.github.com/user/repos -d '{"name":"Lessons"}' 
-fibe@Vladimirs-MacBook-Air Lessons % git remote add origin https://github.com/VladimirFibe/Lessons.git
-fibe@Vladimirs-MacBook-Air Lessonshub.com/VladimirFibe/Lessons.git
+#  SwiftUI
 
+[Native Popovers for iOS SwiftUI - Xcode 14 - SwiftUI Tutorials](https://github.com/VladimirFibe/Lessons/tree/main/Targets/Lessons/Sources/Lessons/PopOvers)
 
 mkdir Lessons
 cd Lessons 

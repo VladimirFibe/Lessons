@@ -11,6 +11,7 @@
 		1DB85ECD2A3EF03900CFFCAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB85ECC2A3EF03900CFFCAC /* ContentView.swift */; };
 		1DB85ECF2A3EF03A00CFFCAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB85ECE2A3EF03A00CFFCAC /* Assets.xcassets */; };
 		1DB85ED22A3EF03A00CFFCAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB85ED12A3EF03A00CFFCAC /* Preview Assets.xcassets */; };
+		1DB85ED92A3EF1EC00CFFCAC /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 1DB85ED82A3EF1EC00CFFCAC /* Shaders.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		1DB85ECC2A3EF03900CFFCAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1DB85ECE2A3EF03A00CFFCAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DB85ED12A3EF03A00CFFCAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1DB85ED82A3EF1EC00CFFCAC /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		1DB85EDA2A3EF24000CFFCAC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +38,7 @@
 		1DB85EBE2A3EF03900CFFCAC = {
 			isa = PBXGroup;
 			children = (
+				1DB85EDA2A3EF24000CFFCAC /* README.md */,
 				1DB85EC92A3EF03900CFFCAC /* ShaderExample */,
 				1DB85EC82A3EF03900CFFCAC /* Products */,
 			);
@@ -54,6 +58,7 @@
 				1DB85ECA2A3EF03900CFFCAC /* ShaderExampleApp.swift */,
 				1DB85ECC2A3EF03900CFFCAC /* ContentView.swift */,
 				1DB85ECE2A3EF03A00CFFCAC /* Assets.xcassets */,
+				1DB85ED82A3EF1EC00CFFCAC /* Shaders.metal */,
 				1DB85ED02A3EF03A00CFFCAC /* Preview Content */,
 			);
 			path = ShaderExample;
@@ -137,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DB85ED92A3EF1EC00CFFCAC /* Shaders.metal in Sources */,
 				1DB85ECD2A3EF03900CFFCAC /* ContentView.swift in Sources */,
 				1DB85ECB2A3EF03900CFFCAC /* ShaderExampleApp.swift in Sources */,
 			);

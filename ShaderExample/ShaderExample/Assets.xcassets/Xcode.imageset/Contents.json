@@ -1,6 +1,7 @@
 {
-  "colors" : [
+  "images" : [
     {
+      "filename" : "Xcode.png",
       "idiom" : "universal"
     }
   ],
